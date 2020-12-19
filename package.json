@@ -1,0 +1,22 @@
+{
+  "name": "@ringofstorms/dotenv",
+  "version": "0.1.0",
+  "description": "Dot environment file loader that acts like Create React App's supporting many files with per NODE_ENV/local settings.",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "dotenv": "^8.x",
+    "dotenv-expand": "^5.x"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.1.3"
+  }
+}
