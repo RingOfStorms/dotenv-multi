@@ -8,10 +8,9 @@
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "incremental": true,
-    "outDir": "./dist",
+    "outDir": "./lib",
     "baseUrl": "./"
   }
 }
