@@ -40,8 +40,8 @@ export function config(options: ConfigOptions = {}): void {
   log('Environment variables loaded from dotenvs:', Object.keys(propsConfigured).length);
   log('\t', propsConfigured);
 
-  const runBoolConverter: boolean = (options.convertToBooleanPredicate || options.convertToBoolean);
-  log('Environment variable boolean converter will run:', runBoolConverter());
+  const runBoolConverter: boolean = !!(options.convertToBooleanPredicate || options.convertToBoolean);
+  log('Environment variable boolean converter will run:', runBoolConverter);
   if (runBoolConverter) {
     const convertPredicate = (key: string): boolean => {
       if (key) {
