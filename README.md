@@ -15,7 +15,7 @@ Example root files:
 
 ```
 # with npm
-npm install @ringofstorms/dotenv-multi
+npm install @ringofstorms/dotenv-multi dotenv dotenv-expand yn
 ```
 
 # Usage
